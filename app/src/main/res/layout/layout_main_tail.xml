@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tailtitleimage"
+        android:layout_gravity="center"
+
+        />
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:divider="@color/colorPrimaryDark"
+        android:orientation="horizontal"
+        android:showDividers="middle"
+        android:layout_marginVertical="10dp"
+        >
+        <!-- 스타일로 공통 속성 값 통합 -->
+        <TextView
+            style="@style/ReStyleTailTextView"
+            android:id="@+id/tailTosButton"
+            android:text="@string/tailTOS"
+            />
+
+        <TextView
+            style="@style/ReStyleTailTextView"
+            android:id="@+id/tailPrivacyButton"
+            android:text="@string/tailPrivacy" />
+
+        <TextView
+            style="@style/ReStyleTailTextView"
+            android:id="@+id/tailFaqButton"
+            android:text="@string/tailFaq" />
+
+        <TextView
+            style="@style/ReStyleTailTextView"
+            android:id="@+id/tailEnquireButton"
+            android:text="@string/tailEnquire" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tailCopyright"
+        android:textSize="10sp"
+        android:layout_gravity="center"
+        />
+</LinearLayout>

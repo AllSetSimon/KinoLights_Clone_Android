@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:divider="?android:attr/listDivider"
+    android:showDividers="middle|beginning|end"
+    >
+    <!-- 스타일로 공통 속성 값 통합 -->
+    <LinearLayout
+        style="@style/ReStyleProfileButtonLayout"
+        >
+        <Button
+            style="@style/ReStyleProfileButtonLayout.Button"
+            android:id="@+id/profileSummaryBtn"
+            android:text="@string/profileSummary"
+            />
+
+        <Button
+            style="@style/ReStyleProfileButtonLayout.Button"
+            android:id="@+id/profileKinoBtn"
+            android:text="@string/profileKino" />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/ReStyleProfileButtonLayout"
+        >
+        <Button
+            style="@style/ReStyleProfileButtonLayout.Button"
+            android:text="@string/profileReview"
+            android:id="@+id/profileReViewBtn"
+            />
+        <Button
+            style="@style/ReStyleProfileButtonLayout.Button"
+            android:id="@+id/profileWishBtn"
+            android:text="@string/profileWish" />
+
+    </LinearLayout>
+
+</LinearLayout>

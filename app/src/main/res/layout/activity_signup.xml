@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="50dp"
+    android:id="@+id/signUpActivityLayout"
+    >
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+        <TableRow
+            android:layout_marginBottom="20dp"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/titleimage"
+                android:gravity="center"
+                android:layout_weight="1"
+
+                />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_marginTop="10dp"
+            >
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:id="@+id/signUpActivitySignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/radiobutton24px"
+                android:text="@string/EmailSignUpButtonText"
+                android:drawablePadding="20dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                app:bootstrapBrand="primary"
+                app:bootstrapSize="md"
+                app:buttonMode="regular"
+                app:roundedCorners="true"
+                 />
+        </TableRow>
+        <TableRow
+            android:layout_marginVertical="30dp"
+            android:divider="@color/colorSearch"
+            android:showDividers="end"
+            >
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>

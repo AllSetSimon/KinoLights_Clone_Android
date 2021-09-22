@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "222854411023",
+    "firebase_url": "https://skulight-dongdang.firebaseio.com",
+    "project_id": "skulight-dongdang",
+    "storage_bucket": "skulight-dongdang.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222854411023:android:0b3c60d21279ec27",
+        "android_client_info": {
+          "package_name": "dongdang.androind.kinolights"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222854411023-mjpa2ididgh4b7jggehoo6rr3593a3g6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dongdang.androind.kinolights",
+            "certificate_hash": "604da5e1736bd8bcf8f08f08b8135e65ef3edc37"
+          }
+        },
+        {
+          "client_id": "222854411023-hbheu5vcah5onp0726c4h5jj4195utm9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGYqqS8TxkycZYVuOl1TV-z5S54FKgWy0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222854411023-hbheu5vcah5onp0726c4h5jj4195utm9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profilebackground"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="20dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        >
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="로그아웃"
+        android:id="@+id/naviHeaderLogout"
+
+        app:buttonMode="regular"
+        app:bootstrapSize="xs"
+        app:bootstrapBrand="primary"
+        app:roundedCorners="true"
+        app:showOutline="true"
+        />
+
+        <com.beardedhen.androidbootstrap.BootstrapCircleThumbnail
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/profileimage"
+            android:layout_marginHorizontal="20dp"
+
+            android:id="@+id/naviHeaderProfile"
+            app:bootstrapBrand="primary"
+            app:hasBorder="true"
+
+            />
+        >
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="프로필 편집"
+            android:id="@+id/naviHeaderEdit"
+
+            app:buttonMode="regular"
+            app:bootstrapSize="xs"
+            app:bootstrapBrand="primary"
+            app:roundedCorners="true"
+            app:showOutline="true"
+
+            />
+
+    </LinearLayout>
+    <com.beardedhen.androidbootstrap.AwesomeTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="noName"
+        android:id="@+id/naviHeaderUserName"
+        android:layout_gravity="center"
+        android:textSize="@dimen/naviHeaderValueH1"
+        android:textStyle="bold"
+        android:layout_weight="1"
+
+        app:bootstrapBrand="secondary"
+        />
+    <com.beardedhen.androidbootstrap.AwesomeTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="clear"
+        android:id="@+id/naviHeaderUserIntroduce"
+        android:layout_gravity="center"
+        android:textSize="@dimen/naviHeaderValueH1"
+        android:layout_weight="1"
+
+        app:bootstrapBrand="secondary"
+        />
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/layout_profile_summary_simple_value"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>

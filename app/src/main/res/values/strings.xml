@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">KinoLights</string>
+
+    <string name="naviProfile">프로필</string>
+    <string name="naviEnquire">문의 및 DB제보</string>
+    <string name="naviFaq">자주 묻는 질문(FAQ)</string>
+
+    <string name="naviHearderMovie">영화</string>
+    <string name="naviHearderReview">리뷰</string>
+    <string name="naviHearderFollowing">팔로잉</string>
+    <string name="naviHearderFollower">팔로워</string>
+    <string name="NaviHeaderLogin">로그인</string>
+    <string name="NaviHeaderSignUp">회원가입</string>
+
+    <string name="profileSummary">프로필 요약</string>
+    <string name="profileKino">키노라이트</string>
+    <string name="profileReview">리뷰</string>
+    <string name="profileWish">위시리스트</string>
+
+    <string name="mainHeaderSearchHint">영화검색</string>
+
+    <!-- 로그인 액티비티 string -->
+    <string name="idEditTextHint">아이디(이메일주소)</string>
+    <string name="passwordEditTextHint">비밀번호(8자리 이상)</string>
+    <string name="loginButtonText">로그인</string>
+    <string name="socialLoginNaverText">네이버아이디로 로그인</string>
+    <string name="socialLoginKakaoText">카카오 계정으로 로그인</string>
+    <string name="socialLoginFacebookText">페이스북으로 로그인</string>
+    <string name="forgotPassword">비밀번호 찾기</string>
+    <string name="SignUpButtonText">회원가입</string>
+
+    <!-- tail 액티비티 string -->
+    <string name= "tailTOS">이용약관</string>
+    <string name="tailPrivacy">개인정보취급방침</string>
+    <string name="tailFaq">자주 묻는 질문</string>
+    <string name="tailEnquire">이용문의 및 DB제보</string>
+    <string name="tailCopyright">Copyrightⓒ키노라이츠 KinoLights ALL RIGHTS RESERVED</string>
+    <string name="EmailSignUpButtonText">이메일로 회원가입</string>
+
+    <string name="searchRequest">검색어를 입력해주세요.</string>
+
+    <string-array name="tabHostIndicator">
+        <item>홈</item>
+        <item>프로필</item>
+        <item>아카이브</item>
+        <item>리뷰</item>
+        <item>이벤트</item>
+    </string-array>
+
+    <string-array name="tabHostTag">
+        <item>home</item>
+        <item>profile</item>
+        <item>archive</item>
+        <item>reView</item>
+        <item>event</item>
+    </string-array>
+
+    <string name="bestMovie">인생 영화 TOP 5</string>
+    <string name="bestMovieComment">당신의 인생영화는 무엇인가요?</string>
+    <string name="recentMovie">최근 본 영화</string>
+    <string name="starChart">별점 분포</string>
+    <string name ="profileCountry">국가</string>
+    <string name="profileCountryDefaultText">표시할 국가 정보가 없어요</string>
+    <string name="kinoLightChart">성결라이트 분포</string>
+    <string name="profieGenre">장르</string>
+    <string name="favoriteTop3">인기 리뷰 TOP3</string>
+    <string name="recentReviewTop3">최근 리뷰 TOP3</string>
+
+    <string name="genreDrama">드라마</string>
+    <string name="genreAcion">액션</string>
+    <string name="genreSF">SF</string>
+    <string name="genreMusical">뮤지컬</string>
+    <string name="genreMusic">음악</string>
+    <string name="genreAdventure">어드벤처(모험)</string>
+    <string name="genreMelo">멜로/로맨스</string>
+
+    <string-array name="archiveFilterYear">
+        <item>모두</item>
+        <item>2010년대</item>
+        <item>2000년대</item>
+        <item>1990년대</item>
+        <item>1980년대</item>
+        <item>1970년대</item>
+        <item>1960년대</item>
+        <item>1950년대</item>
+        <item>1940년대</item>
+        <item>1930년대</item>
+        <item>1920년대</item>
+        <item>1910년대</item>
+        <item>1900년대</item>
+        <item>1890년대</item>
+    </string-array>
+    <string-array name="archiveIndicator">
+        <item>가격</item>
+        <item>채널</item>
+        <item>평점</item>
+    </string-array>
+
+    <string-array name="archiveTag">
+        <item>price</item>
+        <item>channel</item>
+        <item>grade</item>
+    </string-array>
+
+    <string-array name="eventIndicatror">
+        <item>진행중인 이벤트</item>
+        <item>지난 이벤트</item>
+    </string-array>
+    <string-array name="eventTag">
+        <item>proceed</item>
+        <item>overdue</item>
+    </string-array>
+
+    <string name="archiveFilterChannerNStore">N스토어</string>
+    <string name="archiveFilterChannerCinefox">씨네폭스</string>
+    <string name="archiveFilterChannerGooglePlay">구글플레이</string>
+    <string name="archiveFilterChannerNetflix">넷플릭스</string>
+    <string name="archiveFilterChannerWatcha">왓챠플레이</string>
+    <string name="archiveFilterChannerIndieFlug">인디플러그</string>
+    <string name="archiveFilterChannerYES24">YES24</string>
+    <string name="archiveFilterChannerSeechu">SEECHU</string>
+
+    <string-array name="enquireGruop">
+        <item>DB제보 및 오류 수정</item>
+        <item>이용 문의</item>
+        <item>기타 제안</item>
+    </string-array>
+</resources>

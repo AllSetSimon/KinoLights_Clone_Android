@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- 툴바에 우측 메뉴로 들어갈 아이템 -->
+    <item
+        android:title=""
+        android:icon="@drawable/ic_round_notifications_24px"
+        app:showAsAction="always"
+        android:id="@+id/btnNews"
+        />
+</menu>

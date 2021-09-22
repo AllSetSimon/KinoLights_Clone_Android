@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:id="@+id/reViewLayout"
+    android:orientation="vertical"
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/archivebackground"
+        android:padding="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="영화 리뷰"
+            android:textSize="25dp"
+            android:id="@+id/archiveLayoutTitle"
+            android:layout_above="@+id/btnReviewGroup"
+            android:layout_marginBottom="30dp"
+
+            />
+        <requestFocus/>
+        <com.beardedhen.androidbootstrap.BootstrapButtonGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/btnReviewGroup"
+            app:bootstrapSize="lg"
+            app:roundedCorners="true"
+            app:bootstrapBrand="secondary"
+            app:showOutline="true"
+
+            >
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/btnRecentReview"
+                android:text="최근 리뷰"
+                />
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/btnBestReview"
+                android:text="베스트 리뷰"
+                />
+        </com.beardedhen.androidbootstrap.BootstrapButtonGroup>
+    </RelativeLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recentReviewListView"
+            android:scrollbars="none"
+            android:dividerHeight="20dp"
+            android:divider="#000000"
+            android:visibility="visible"
+            >
+        </ListView>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/bestReviewListView"
+            android:visibility="gone"
+            android:scrollbars="none"
+            android:dividerHeight="20dp"
+            android:divider="#000000"
+            >
+        </ListView>
+    </FrameLayout>
+
+
+</LinearLayout>

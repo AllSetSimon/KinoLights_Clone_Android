@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:attrs="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이번 주 리뷰"
+        android:layout_marginBottom="10dp"/>
+    <dongdang.androind.kinolights.view.CustomViewPager
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/viewPager"
+        >
+
+    </dongdang.androind.kinolights.view.CustomViewPager>
+
+    <com.rd.PageIndicatorView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pageIndicatorView"
+        attrs:piv_padding="12dp"
+        attrs:piv_radius="8dp"
+        android:layout_gravity="center"
+        android:layout_marginVertical="10dp"
+        app:piv_viewPager="@id/viewPager"
+        app:piv_animationType="drop"
+
+        />
+
+</LinearLayout>

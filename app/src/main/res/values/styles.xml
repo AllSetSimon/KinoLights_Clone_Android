@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="ReStyleDrawer">
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="MovieSimpleInfoItemSize">
+        <item name="android:textSize">10sp</item>
+    </style>
+    <style name="ReStyleTailTextView">
+        <item name="android:textSize">10sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginHorizontal">5dp</item>
+    </style>
+    <style name="ReStyleSocialLogin">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:background">#00aa0000</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    <style name="ReStyleNaviHearderGridItem">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_columnWeight">1</item>
+    </style>
+    <style name="ReStyleProfileButtonLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:divider">?android:attr/listDivider</item>
+        <item name="android:showDividers">middle</item>
+    </style>
+    <style name="ReStyleProfileButtonLayout.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">#00aa0000</item>
+    </style>
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+    <style name="PopupAnimation" parent="android:Animation" mce_bogus="1">
+        <item name="android:windowEnterAnimation">@anim/anim_popmenu_show</item>
+        <item name="android:windowExitAnimation">@anim/anim_popmenu_hide</item>
+    </style>
+</resources>

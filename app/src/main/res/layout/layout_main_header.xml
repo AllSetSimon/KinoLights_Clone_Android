@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/bootstrap_brand_primary"
+        android:fitsSystemWindows="true"
+        android:id="@+id/toolbar">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/reorder"
+            android:background="@android:color/transparent"
+            android:id="@+id/btnNaviView"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/toolbartitleimage"
+            android:id="@+id/toolbarTitle"/>
+    </androidx.appcompat.widget.Toolbar>
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorSearch"
+        android:id="@+id/mainHeaderSearch"
+        android:drawableLeft="@drawable/search24px"
+        android:hint="@string/mainHeaderSearchHint"
+        app:bootstrapBrand="primary"
+        app:roundedCorners="true"
+        app:bootstrapSize="md"
+        android:singleLine="true"
+        android:focusable="false"
+    />
+
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3D86FC"
+    android:orientation="vertical"
+    android:id="@+id/profileLayout">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/profilebackground2"
+        android:orientation="horizontal"
+        android:paddingHorizontal="20dp"
+        >
+        <com.beardedhen.androidbootstrap.BootstrapCircleThumbnail
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/profileimage"
+            app:bootstrapBrand="info"
+            app:hasBorder="true"
+            android:layout_gravity="center"
+            android:id="@+id/profileImageView"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            android:padding="30dp"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DongDang"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:id="@+id/profileTextViewName"
+                />
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아직 소개문구가 없습니다."
+                android:id="@+id/profileTextViewIntroduce"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/layout_profile_menu"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            layout="@layout/layout_profile_summary"
+            />
+        <include
+            layout="@layout/layout_profile_kinolight"
+            />
+        <include
+            layout="@layout/layout_profile_review"
+            />
+        <include
+            layout="@layout/layout_profile_wish"
+            />
+
+    </FrameLayout>
+</LinearLayout>

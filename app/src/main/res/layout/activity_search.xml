@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:divider="@color/bootstrap_brand_info"
+    android:showDividers="middle"
+    android:dividerPadding="5dp"
+    android:background="@color/colorPrimary"
+    >
+
+    <dongdang.androind.kinolights.util.CustomEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorSearch"
+        android:id="@+id/searchEdt"
+        android:drawableRight="@drawable/search24px"
+        android:hint="@string/mainHeaderSearchHint"
+        android:singleLine="true"
+        android:layout_margin="10dp"
+        >
+        <requestFocus/>
+    </dongdang.androind.kinolights.util.CustomEditText>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:text="@string/searchRequest"
+            android:id="@+id/requestSearchTextView"
+            />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/searchListView"
+                android:scrollbars="vertical"
+                ></ListView>
+        </ScrollView>
+
+    </FrameLayout>
+    <Button
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="닫기"
+        android:id="@+id/searchBtnExit"
+        android:background="#00000000"
+        />
+</LinearLayout>
